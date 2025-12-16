@@ -1,12 +1,24 @@
-# 忽略日志文件夹
-logs/
-install/
+# ROS2 编译产物
 build/
+install/
 log/
+devel/  # 兼容 ROS1（如果不需要可以删）
 
-# 忽略Python缓存文件
-__pycache__/
-*.pyc
+# 目标文件、二进制文件
+*.o
+*.so
+*.a
+*.exe
+*.out
+*.bin
 
-# 忽略IDE配置（如VS Code）
+# 临时文件
+*.swp
+*.tmp
+*~
+.DS_Store
+
+# IDE 配置文件（如果用 VSCode/CLion 等，可选）
 .vscode/
+.idea/
+cmake-build-*/
