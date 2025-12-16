@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0585c5863c09ceb41f2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "dh_gripper_msgs__py",
+					"jsonFile" : "directory-dh_gripper_msgs__py-2c36c38b3f40cee9909d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jim/rm_dh_ws/build/dh_gripper_msgs/dh_gripper_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dh_gripper_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dh_gripper_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dh_gripper_msgs_egg-27a39f77da204dc2e469.json",
+					"name" : "ament_cmake_python_build_dh_gripper_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dh_gripper_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dh_gripper_msgs-dfc67ba71734fb5d7f04.json",
+					"name" : "ament_cmake_python_copy_dh_gripper_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs-28e62ae5bfe07f0d7b75.json",
+					"name" : "dh_gripper_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__cpp-b63bc2a020d2a19e3cbe.json",
+					"name" : "dh_gripper_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dh_gripper_msgs__py::@9d6517a9140775318977",
+					"jsonFile" : "target-dh_gripper_msgs__py-afd5cff045f6d698b1c7.json",
+					"name" : "dh_gripper_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_generator_c-5f01a25d04eac4ab9cca.json",
+					"name" : "dh_gripper_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_generator_py-b12ae0c3d83e656ebfb5.json",
+					"name" : "dh_gripper_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_typesupport_c-4170b4829421a83f6129.json",
+					"name" : "dh_gripper_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_typesupport_c__pyext-52b60ead05439da29e7e.json",
+					"name" : "dh_gripper_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_typesupport_cpp-90e8849202fcfbbdb8d9.json",
+					"name" : "dh_gripper_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_typesupport_fastrtps_c-e917070d71c683762da8.json",
+					"name" : "dh_gripper_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_typesupport_fastrtps_c__pyext-5d15e34eb9d9477e69d6.json",
+					"name" : "dh_gripper_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_typesupport_fastrtps_cpp-2e0338707e7af058b5ba.json",
+					"name" : "dh_gripper_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_typesupport_introspection_c-1aaa86455a1246c6ba2b.json",
+					"name" : "dh_gripper_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_typesupport_introspection_c__pyext-dc19701215799e99be80.json",
+					"name" : "dh_gripper_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs__rosidl_typesupport_introspection_cpp-276ee56af8b60f0a2732.json",
+					"name" : "dh_gripper_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dh_gripper_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dh_gripper_msgs_uninstall-c130583f80d7fc246ef9.json",
+					"name" : "dh_gripper_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7f2652a29d379feaa252.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jim/rm_dh_ws/build/dh_gripper_msgs",
+		"source" : "/home/jim/rm_dh_ws/src/dh_gripper_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

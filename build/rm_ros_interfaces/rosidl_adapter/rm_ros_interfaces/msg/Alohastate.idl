@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_ros_interfaces/msg/Alohastate.msg
+// generated code does not contain a copyright notice
+
+
+module rm_ros_interfaces {
+  module msg {
+    struct Alohastate {
+      @verbatim (language="comment", text=
+        "IO1状态（手柄光电检测），0为按键未触发，1为按键触发。")
+      int16 io1_state;
+
+      @verbatim (language="comment", text=
+        "IO2状态（手柄光电检测），0为按键未触发，1为按键触发。")
+      int16 io2_state;
+    };
+  };
+};

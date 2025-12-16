@@ -1,0 +1,189 @@
+[0.052s] Invoking command in '/home/jim/rm_dh_ws/build/rm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/rm_dh_ws/install/dh_gripper_driver:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake /home/jim/rm_dh_ws/src/rm_description -DCMAKE_INSTALL_PREFIX=/home/jim/rm_dh_ws/install/rm_description
+[0.188s] -- The C compiler identification is GNU 11.4.0
+[0.255s] -- The CXX compiler identification is GNU 11.4.0
+[0.263s] -- Detecting C compiler ABI info
+[0.337s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.346s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.350s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.442s] -- Detecting CXX compile features - done
+[0.447s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.720s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.840s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.853s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.856s] -- Added test 'lint_cmake' to check CMake code style
+[0.858s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.866s] -- Added test 'xmllint' to check XML markup files
+[0.869s] -- Configuring done
+[0.872s] -- Generating done
+[0.876s] -- Build files have been written to: /home/jim/rm_dh_ws/build/rm_description
+[0.880s] Invoked command in '/home/jim/rm_dh_ws/build/rm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/rm_dh_ws/install/dh_gripper_driver:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake /home/jim/rm_dh_ws/src/rm_description -DCMAKE_INSTALL_PREFIX=/home/jim/rm_dh_ws/install/rm_description
+[0.882s] Invoking command in '/home/jim/rm_dh_ws/build/rm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/rm_dh_ws/install/dh_gripper_driver:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jim/rm_dh_ws/build/rm_description -- -j16 -l16
+[0.930s] Invoked command in '/home/jim/rm_dh_ws/build/rm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/rm_dh_ws/install/dh_gripper_driver:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jim/rm_dh_ws/build/rm_description -- -j16 -l16
+[0.932s] Invoking command in '/home/jim/rm_dh_ws/build/rm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/rm_dh_ws/install/dh_gripper_driver:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jim/rm_dh_ws/build/rm_description
+[0.945s] -- Install configuration: ""
+[0.945s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch
+[0.945s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_75_6fb_display.launch.py
+[0.945s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_65_6fb_display.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_eco63_6fb_display.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/view_rm65_ag95.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_gen72_display.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_gen72_II_display.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_eco65_6f_display.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_63_6fb_display.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_63_6f_display.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_63_III_6fb_display.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_63_III_display.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_75_display.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_75_6f_display.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_eco65_6fb_display.launch.py
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_eco63_display.launch.py
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_eco65_display.launch.py
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_65_6f_display.launch.py
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_65_display.launch.py
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/launch/rm_63_display.launch.py
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf
+[0.951s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco63_gazebo.urdf
+[0.951s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco63_gazebo.urdf.xacro
+[0.951s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rml_63.urdf.xacro
+[0.951s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_75_6fb.urdf
+[0.951s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_gen72.csv
+[0.951s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_75.urdf
+[0.951s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/ag95_macro.xacro
+[0.951s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco65.csv
+[0.953s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_65_description.csv
+[0.953s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_75_6f.urdf
+[0.953s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_75_gazebo.urdf
+[0.953s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_65.urdf
+[0.954s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rml_63_description.csv
+[0.954s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco63.urdf
+[0.954s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rml_63_6fb_description.urdf.xacro
+[0.954s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_65.urdf.xacro
+[0.954s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_gen72_II.urdf
+[0.954s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_75.urdf.xacro
+[0.954s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rml_63_gazebo.urdf.xacro
+[0.954s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_75_description.csv
+[0.955s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco65_6fb.urdf
+[0.955s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rml_63_6fb.urdf
+[0.955s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco65_gazebo.urdf
+[0.955s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rml_63_gazebo.urdf
+[0.955s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_65_gazebo.urdf
+[0.955s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco63_6fb.urdf
+[0.956s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco65.urdf.xacro
+[0.956s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_75_gazebo.urdf.xacro
+[0.956s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco63.csv
+[0.956s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/display_arm.rviz
+[0.956s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_65_6fb.urdf
+[0.957s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_gen72_gazebo.urdf
+[0.957s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco65.urdf
+[0.957s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_65_6f.urdf
+[0.957s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rml_63_6f.urdf
+[0.958s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_65_with_ag95.urdf.xacro
+[0.958s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_gen72_II_gazebo.urdf
+[0.958s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rml_63.urdf
+[0.958s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_gen72.urdf
+[0.958s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco65_gazebo.urdf.xacro
+[0.959s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco63.urdf.xacro
+[0.959s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_eco65_6f.urdf
+[0.959s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/urdf/rm_65_gazebo.urdf.xacro
+[0.959s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes
+[0.959s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm
+[0.960s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link4.STL
+[0.960s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/base_link.STL
+[0.961s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link6.STL
+[0.961s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link7.STL
+[0.962s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link3.STL
+[0.963s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link2.STL
+[0.963s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link1.STL
+[0.964s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_arm/Link5.STL
+[0.964s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm
+[0.965s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link1_III.STL
+[0.966s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link2.STL
+[0.966s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/base_link.STL
+[0.967s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link4.STL
+[0.968s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link3.STL
+[0.969s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/base_link_III_old.STL
+[0.970s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link5.STL
+[0.971s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link6.STL
+[0.972s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/base_link_III.STL
+[0.973s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link6_6f.STL
+[0.975s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link6_6fb.STL
+[0.975s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_63_arm/link1.STL
+[0.977s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_65_arm
+[0.977s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link2.STL
+[0.978s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/base_link.STL
+[0.979s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link4.STL
+[0.979s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link3.STL
+[0.981s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link5.STL
+[0.982s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link6.STL
+[0.982s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link6_6f.STL
+[0.982s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link6_6fb.STL
+[0.983s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_65_arm/link1.STL
+[0.984s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm
+[0.984s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link4.STL
+[0.985s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/base_link.STL
+[0.989s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link6.STL
+[0.990s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link3.STL
+[0.991s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link2.STL
+[0.991s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link1.STL
+[0.992s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco62_arm/Link5.STL
+[0.994s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm
+[0.994s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link4.STL
+[0.994s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/base_link.STL
+[0.996s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link6.STL
+[0.996s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link7.STL
+[0.997s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link3.STL
+[0.998s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link2.STL
+[0.999s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link1.STL
+[0.999s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_gen72_II_arm/Link5.STL
+[1.000s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm
+[1.000s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link2.STL
+[1.001s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/base_link.STL
+[1.002s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link4.STL
+[1.003s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link7_6f.STL
+[1.004s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link7.STL
+[1.004s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link3.STL
+[1.005s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link5.STL
+[1.006s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link6.STL
+[1.006s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link7_6fb.STL
+[1.007s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_75_arm/link1.STL
+[1.008s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm
+[1.008s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link6_6fb.STL
+[1.009s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link4.STL
+[1.010s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link6.STL
+[1.012s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link6_6f.STL
+[1.012s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link3.STL
+[1.012s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link2.STL
+[1.013s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link1.STL
+[1.013s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/baselink.STL
+[1.014s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco65_arm/Link5.STL
+[1.016s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm
+[1.016s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link6_6fb.STL
+[1.017s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link4.STL
+[1.018s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/base_link.STL
+[1.019s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link6.STL
+[1.019s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link3.STL
+[1.020s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link2.STL
+[1.021s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link1.STL
+[1.022s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/meshes/rm_eco63_arm/Link5.STL
+[1.023s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/ament_index/resource_index/package_run_dependencies/rm_description
+[1.024s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/ament_index/resource_index/parent_prefix_path/rm_description
+[1.024s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/environment/ament_prefix_path.sh
+[1.024s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/environment/ament_prefix_path.dsv
+[1.024s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/environment/path.sh
+[1.024s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/environment/path.dsv
+[1.024s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/local_setup.bash
+[1.024s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/local_setup.sh
+[1.025s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/local_setup.zsh
+[1.025s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/local_setup.dsv
+[1.025s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/package.dsv
+[1.025s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/ament_index/resource_index/packages/rm_description
+[1.025s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/cmake/rm_descriptionConfig.cmake
+[1.025s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/cmake/rm_descriptionConfig-version.cmake
+[1.025s] -- Installing: /home/jim/rm_dh_ws/install/rm_description/share/rm_description/package.xml
+[1.027s] Invoked command in '/home/jim/rm_dh_ws/build/rm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/rm_dh_ws/install/dh_gripper_driver:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jim/rm_dh_ws/build/rm_description

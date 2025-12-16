@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target movejp_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target rm_change_work_frame[0m
+[35m[1mConsolidate compiler generated dependencies of target movejp_gen72_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target movel_gen72_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target movej_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target movel_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target rm_get_state[0m
+[ 14%] Built target movejp_demo
+[ 28%] Built target movej_demo
+[ 42%] Built target movejp_gen72_demo
+[ 57%] Built target rm_change_work_frame
+[ 71%] Built target movel_demo
+[ 85%] Built target movel_gen72_demo
+[100%] Built target rm_get_state
+-- Install configuration: ""
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/launch
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/launch/rm_7dof_movej.launch.py
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/launch/rm_6dof_movej.launch.py
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/lib/rm_example/rm_change_work_frame
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/lib/rm_example/rm_get_state
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/lib/rm_example/movej_demo
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/lib/rm_example/movejp_demo
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/lib/rm_example/movel_demo
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/lib/rm_example/movejp_gen72_demo
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/lib/rm_example/movel_gen72_demo
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/ament_index/resource_index/package_run_dependencies/rm_example
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/ament_index/resource_index/parent_prefix_path/rm_example
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/environment/path.sh
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/environment/path.dsv
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/local_setup.bash
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/local_setup.sh
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/local_setup.zsh
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/local_setup.dsv
+-- Installing: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/package.dsv
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/ament_index/resource_index/packages/rm_example
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/cmake/rm_exampleConfig.cmake
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/cmake/rm_exampleConfig-version.cmake
+-- Up-to-date: /home/jim/rm_dh_ws/install/rm_example/share/rm_example/package.xml

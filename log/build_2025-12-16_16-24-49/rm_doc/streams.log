@@ -1,0 +1,20 @@
+[0.035s] Invoking command in '/home/jim/rm_dh_ws/build/rm_doc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/rm_dh_ws/install/dh_gripper_driver:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jim/rm_dh_ws/build/rm_doc -- -j16 -l16
+[0.128s] Invoked command in '/home/jim/rm_dh_ws/build/rm_doc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/rm_dh_ws/install/dh_gripper_driver:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jim/rm_dh_ws/build/rm_doc -- -j16 -l16
+[0.130s] Invoking command in '/home/jim/rm_dh_ws/build/rm_doc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/rm_dh_ws/install/dh_gripper_driver:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jim/rm_dh_ws/build/rm_doc
+[0.135s] -- Install configuration: ""
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/ament_index/resource_index/package_run_dependencies/rm_doc
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/ament_index/resource_index/parent_prefix_path/rm_doc
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/environment/ament_prefix_path.sh
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/environment/ament_prefix_path.dsv
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/environment/path.sh
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/environment/path.dsv
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/local_setup.bash
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/local_setup.sh
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/local_setup.zsh
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/local_setup.dsv
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/package.dsv
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/ament_index/resource_index/packages/rm_doc
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/cmake/rm_docConfig.cmake
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/cmake/rm_docConfig-version.cmake
+[0.135s] -- Up-to-date: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/package.xml
+[0.234s] Invoked command in '/home/jim/rm_dh_ws/build/rm_doc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/rm_dh_ws/install/dh_gripper_driver:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jim/rm_dh_ws/build/rm_doc

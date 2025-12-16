@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target move_demo[0m
+[100%] Built target move_demo
+-- Install configuration: ""
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/launch
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/launch/rm_65_move.launch.py
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/launch/rm_75_move.launch.py
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/lib/control_arm_move/move_demo
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/ament_index/resource_index/package_run_dependencies/control_arm_move
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/ament_index/resource_index/parent_prefix_path/control_arm_move
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/environment/path.sh
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/environment/path.dsv
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/local_setup.bash
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/local_setup.sh
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/local_setup.zsh
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/local_setup.dsv
+-- Installing: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/package.dsv
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/ament_index/resource_index/packages/control_arm_move
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/cmake/control_arm_moveConfig.cmake
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/cmake/control_arm_moveConfig-version.cmake
+-- Up-to-date: /home/jim/rm_dh_ws/install/control_arm_move/share/control_arm_move/package.xml

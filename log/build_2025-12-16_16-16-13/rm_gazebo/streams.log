@@ -1,0 +1,73 @@
+[0.048s] Invoking command in '/home/jim/rm_dh_ws/build/rm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake /home/jim/rm_dh_ws/src/rm_gazebo -DCMAKE_INSTALL_PREFIX=/home/jim/rm_dh_ws/install/rm_gazebo
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- The CXX compiler identification is GNU 11.4.0
+[0.183s] -- Detecting C compiler ABI info
+[0.256s] -- Detecting C compiler ABI info - done
+[0.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.346s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.366s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.568s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.769s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.848s] -- Configuring done
+[0.849s] -- Generating done
+[0.850s] -- Build files have been written to: /home/jim/rm_dh_ws/build/rm_gazebo
+[0.863s] Invoked command in '/home/jim/rm_dh_ws/build/rm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake /home/jim/rm_dh_ws/src/rm_gazebo -DCMAKE_INSTALL_PREFIX=/home/jim/rm_dh_ws/install/rm_gazebo
+[0.864s] Invoking command in '/home/jim/rm_dh_ws/build/rm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jim/rm_dh_ws/build/rm_gazebo -- -j16 -l16
+[0.926s] Invoked command in '/home/jim/rm_dh_ws/build/rm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jim/rm_dh_ws/build/rm_gazebo -- -j16 -l16
+[0.928s] Invoking command in '/home/jim/rm_dh_ws/build/rm_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jim/rm_dh_ws/build/rm_gazebo
+[0.946s] -- Install configuration: ""
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_65_6f_demo.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_75_demo.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_eco65_6fb_demo.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_63_III_demo.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_65_demo.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_75_6f_demo.launch.py
+[0.946s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_63_6f_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_65_6fb_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_eco65_6f_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_gen72_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_eco63_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_gen72_II_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_63_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_75_6fb_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_63_6fb_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_63_III_6fb_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_eco65_demo.launch.py
+[0.947s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/launch/gazebo_eco63_6fb_demo.launch.py
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_63_description.urdf.xacro
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_65_description.urdf.xacro
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_gen72_II_description.urdf.xacro
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_eco65_6fb_description.urdf.xacro
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_63_III_description.urdf.xacro
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_gen72_description.urdf.xacro
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_eco63_description.urdf.xacro
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_63_6fb_description.urdf.xacro
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_75_6fb_description.urdf.xacro
+[0.948s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_75_description.urdf.xacro
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_65_6fb_description.urdf.xacro
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_eco65_description.urdf.xacro
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/config/gazebo_eco63_6fb_description.urdf.xacro
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/ament_index/resource_index/package_run_dependencies/rm_gazebo
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/ament_index/resource_index/parent_prefix_path/rm_gazebo
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/environment/ament_prefix_path.sh
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/environment/ament_prefix_path.dsv
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/environment/path.sh
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/environment/path.dsv
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/local_setup.bash
+[0.949s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/local_setup.sh
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/local_setup.zsh
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/local_setup.dsv
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/package.dsv
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/ament_index/resource_index/packages/rm_gazebo
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/cmake/rm_gazeboConfig.cmake
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/cmake/rm_gazeboConfig-version.cmake
+[0.950s] -- Installing: /home/jim/rm_dh_ws/install/rm_gazebo/share/rm_gazebo/package.xml
+[0.978s] Invoked command in '/home/jim/rm_dh_ws/build/rm_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jim/rm_dh_ws/build/rm_gazebo

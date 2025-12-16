@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rm_65_ag95">
+
+  <xacro:include filename="$(find rm_description)/urdf/rm_65.urdf.xacro" />
+
+  <xacro:include filename="$(find dh_gripper_description)/urdf/ag95_macro.xacro" />
+
+  <xacro:dh_ag95_gripper prefix="" parent="Link6" />
+
+</robot>

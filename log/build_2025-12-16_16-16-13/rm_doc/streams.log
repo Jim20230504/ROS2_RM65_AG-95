@@ -1,0 +1,42 @@
+[0.045s] Invoking command in '/home/jim/rm_dh_ws/build/rm_doc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake /home/jim/rm_dh_ws/src/rm_doc -DCMAKE_INSTALL_PREFIX=/home/jim/rm_dh_ws/install/rm_doc
+[0.133s] -- The C compiler identification is GNU 11.4.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.210s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.288s] -- Detecting C compile features
+[0.288s] -- Detecting C compile features - done
+[0.291s] -- Detecting CXX compiler ABI info
+[0.374s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.385s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.397s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.581s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.691s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.802s] -- Added test 'lint_cmake' to check CMake code style
+[0.803s] -- Added test 'xmllint' to check XML markup files
+[0.805s] -- Configuring done
+[0.806s] -- Generating done
+[0.808s] -- Build files have been written to: /home/jim/rm_dh_ws/build/rm_doc
+[0.816s] Invoked command in '/home/jim/rm_dh_ws/build/rm_doc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake /home/jim/rm_dh_ws/src/rm_doc -DCMAKE_INSTALL_PREFIX=/home/jim/rm_dh_ws/install/rm_doc
+[0.817s] Invoking command in '/home/jim/rm_dh_ws/build/rm_doc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jim/rm_dh_ws/build/rm_doc -- -j16 -l16
+[0.872s] Invoked command in '/home/jim/rm_dh_ws/build/rm_doc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --build /home/jim/rm_dh_ws/build/rm_doc -- -j16 -l16
+[0.876s] Invoking command in '/home/jim/rm_dh_ws/build/rm_doc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jim/rm_dh_ws/build/rm_doc
+[0.885s] -- Install configuration: ""
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/ament_index/resource_index/package_run_dependencies/rm_doc
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/ament_index/resource_index/parent_prefix_path/rm_doc
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/environment/ament_prefix_path.sh
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/environment/ament_prefix_path.dsv
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/environment/path.sh
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/environment/path.dsv
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/local_setup.bash
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/local_setup.sh
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/local_setup.zsh
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/local_setup.dsv
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/package.dsv
+[0.885s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/ament_index/resource_index/packages/rm_doc
+[0.886s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/cmake/rm_docConfig.cmake
+[0.886s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/cmake/rm_docConfig-version.cmake
+[0.886s] -- Installing: /home/jim/rm_dh_ws/install/rm_doc/share/rm_doc/package.xml
+[0.917s] Invoked command in '/home/jim/rm_dh_ws/build/rm_doc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jim/ws_moveit2/install/moveit_configs_utils:/home/jim/ws_moveit2/install/launch_param_builder:/home/jim/tactile_ws/install/tactile_sensor_ros2:/opt/ros/humble /usr/bin/cmake --install /home/jim/rm_dh_ws/build/rm_doc

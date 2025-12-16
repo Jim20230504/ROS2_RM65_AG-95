@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:property name="pi" value="3.14159265" />
+
+  <xacro:macro name="dh_ag95_gripper" params="prefix parent">
+
+    <joint name="${prefix}gripper_base_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${prefix}gripper_base_link"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/> 
+    </joint>
+
+    <link name="${prefix}gripper_base_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/base_link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Silver">
+          <color rgba="0.7 0.7 0.7 1" />
+        </material>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/base_link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <mass value="0.83416" />
+        <origin xyz="0.0 0.0 0.0" />
+        <inertia ixx="0.0013016" ixy="-6.9374e-07" ixz="5.9848e-07"
+                 iyx="0.000000" iyy="0.00049972" iyz="2.0244E-07"
+                 izx="0.000000" izy="0.000000" izz="0.001498" />
+      </inertial>
+    </link>
+
+    <joint name="${prefix}gripper_finger1_joint" type="revolute">
+      <parent link="${prefix}gripper_base_link"/>
+      <child link="${prefix}gripper_finger1_knuckle_link"/>
+      <axis xyz="0 -1 0"/>
+      <origin rpy="0.0 0.0 ${pi}" xyz="-0.016 0 0.10586"/>
+      <limit lower="0.0" upper="0.65" velocity="2.0" effort="1000"/>
+    </joint>
+
+    <link name="${prefix}gripper_finger1_knuckle_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/crank_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Silver"/>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/crank_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <inertial>
+         <mass value="0.011111" /> <origin xyz="0 0 0" /> <inertia ixx="3.88e-06" ixy="0" ixz="0" iyy="1.92e-06" iyz="0" izz="4.32e-06" />
+      </inertial>
+    </link>
+
+    <joint name="${prefix}gripper_finger1_finger_joint" type="continuous">
+      <parent link="${prefix}gripper_finger1_knuckle_link"/>
+      <child link="${prefix}gripper_finger1_finger_link"/>
+      <axis xyz="0 -1 0"/>
+      <origin xyz="0.0292080077784 0.0 -0.0227132622407" rpy="0 0 0" />
+      <limit lower="-3.14" upper="3.14" velocity="100.0" effort="0.1"/>
+      <mimic joint="${prefix}gripper_finger1_joint" multiplier="0.4563942" offset="0"/>
+    </joint>
+
+    <link name="${prefix}gripper_finger1_finger_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/rod_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Silver"/>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/rod_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <inertial>
+         <mass value="0.022" /> <origin xyz="0 0 0" /> <inertia ixx="8.72e-06" ixy="0" ixz="0" iyy="7.26e-06" iyz="0" izz="3.34e-06" />
+      </inertial>
+    </link>
+
+    <joint name="${prefix}gripper_finger1_inner_knuckle_joint" type="continuous">
+      <parent link="${prefix}gripper_base_link"/>
+      <child link="${prefix}gripper_finger1_inner_knuckle_link"/>
+      <axis xyz="0 -1 0"/>
+      <origin rpy="0.0 0.0 ${pi}" xyz="-0.016 0 0.10586"/>
+      <limit lower="-3.14" upper="3.14" velocity="100.0" effort="0.1"/>
+      <mimic joint="${prefix}gripper_finger1_joint" multiplier="1.49462955" offset="0"/>
+    </joint>
+
+    <link name="${prefix}gripper_finger1_inner_knuckle_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/proximal_phalanx_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Silver"/>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/proximal_phalanx_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <inertial>
+         <mass value="0.031" /> <origin xyz="0 0 0" /> <inertia ixx="1.39e-05" ixy="0" ixz="0" iyy="1.04e-05" iyz="0" izz="1.36e-05" />
+      </inertial>
+    </link>
+
+    <joint name="${prefix}gripper_finger1_finger_tip_joint" type="continuous">
+      <parent link="${prefix}gripper_finger1_inner_knuckle_link"/>
+      <child link="${prefix}gripper_finger1_finger_tip_link"/>
+      <axis xyz="0 1 0"/>
+      <origin xyz="0.0394969463769 0.0 0.0382752038125 " rpy="0.0 0.0 0.0"/>
+      <limit lower="-3.14" upper="3.14" velocity="100.0" effort="0.1"/>
+      <mimic joint="${prefix}gripper_finger1_joint" multiplier="1.49462955" offset="0"/>
+    </joint>
+
+    <link name="${prefix}gripper_finger1_finger_tip_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/distal_phalanx_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Silver"/>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/distal_phalanx_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <inertial>
+         <mass value="0.012" /> <origin xyz="0 0 0" /> <inertia ixx="2.84e-06" ixy="0" ixz="0" iyy="3.03e-06" iyz="0" izz="1.11e-06" />
+      </inertial>
+    </link>
+
+    <joint name="${prefix}gripper_finger2_joint" type="revolute">
+      <parent link="${prefix}gripper_base_link"/>
+      <child link="${prefix}gripper_finger2_knuckle_link"/>
+      <axis xyz="0 -1 0"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.016 0 0.10586"/>
+      <limit lower="-3.14" upper="3.14" velocity="100.0" effort="1000"/>
+      <mimic joint="${prefix}gripper_finger1_joint" multiplier="1.0" offset="0"/>
+    </joint>
+
+    <link name="${prefix}gripper_finger2_knuckle_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/crank_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Silver"/>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/crank_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <inertial>
+         <mass value="0.011" /> <origin xyz="0 0 0" /> <inertia ixx="3.88e-06" ixy="0" ixz="0" iyy="1.92e-06" iyz="0" izz="4.32e-06" />
+      </inertial>
+    </link>
+
+    <joint name="${prefix}gripper_finger2_finger_joint" type="continuous">
+      <parent link="${prefix}gripper_finger2_knuckle_link"/>
+      <child link="${prefix}gripper_finger2_finger_link"/>
+      <axis xyz="0 -1 0"/>
+      <origin xyz="0.0292080077784 0.0 -0.0227132622407" rpy="0 0 0" />
+      <limit lower="-3.14" upper="3.14" velocity="100.0" effort="0.1"/>
+      <mimic joint="${prefix}gripper_finger1_joint" multiplier="0.4563942" offset="0"/>
+    </joint>
+
+    <link name="${prefix}gripper_finger2_finger_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/rod_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Silver"/>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/rod_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <inertial>
+         <mass value="0.022" /> <origin xyz="0 0 0" /> <inertia ixx="8.72e-06" ixy="0" ixz="0" iyy="7.26e-06" iyz="0" izz="3.34e-06" />
+      </inertial>
+    </link>
+
+    <joint name="${prefix}gripper_finger2_inner_knuckle_joint" type="continuous">
+      <parent link="${prefix}gripper_base_link"/>
+      <child link="${prefix}gripper_finger2_inner_knuckle_link"/>
+      <axis xyz="0 -1 0"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.016 0 0.10586"/>
+      <limit lower="-3.14" upper="3.14" velocity="100.0" effort="0.1"/>
+      <mimic joint="${prefix}gripper_finger1_joint" multiplier="1.49462955" offset="0"/>
+    </joint>
+
+    <link name="${prefix}gripper_finger2_inner_knuckle_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/proximal_phalanx_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Silver"/>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/proximal_phalanx_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <inertial>
+         <mass value="0.031" /> <origin xyz="0 0 0" /> <inertia ixx="1.39e-05" ixy="0" ixz="0" iyy="1.04e-05" iyz="0" izz="1.36e-05" />
+      </inertial>
+    </link>
+
+    <joint name="${prefix}gripper_finger2_finger_tip_joint" type="continuous">
+      <parent link="${prefix}gripper_finger2_inner_knuckle_link"/>
+      <child link="${prefix}gripper_finger2_finger_tip_link"/>
+      <axis xyz="0 1 0"/>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0394969463769  0.0 0.0382752038125  "/>
+      <limit lower="-3.14" upper="3.14" velocity="100.0" effort="0.1"/>
+      <mimic joint="${prefix}gripper_finger1_joint" multiplier="1.49462955" offset="0"/>
+    </joint>
+
+    <link name="${prefix}gripper_finger2_finger_tip_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/distal_phalanx_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="Silver"/>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://dh_gripper_description/meshes/distal_phalanx_Link.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+      <inertial>
+         <mass value="0.012" /> <origin xyz="0 0 0" /> <inertia ixx="2.84e-06" ixy="0" ixz="0" iyy="3.03e-06" iyz="0" izz="1.11e-06" />
+      </inertial>
+    </link>
+  </xacro:macro>
+</robot>
