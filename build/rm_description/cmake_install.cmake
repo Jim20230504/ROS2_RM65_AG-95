@@ -47,7 +47,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/jim/rm_dh_ws/src/rm_description/launch"
     "/home/jim/rm_dh_ws/src/rm_description/urdf"
     "/home/jim/rm_dh_ws/src/rm_description/meshes"
-    FILES_MATCHING REGEX "/[^/]*\\.xacro$" REGEX "/[^/]*\\.urdf$" REGEX "/[^/]*\\.stl$" REGEX "/[^/]*\\.dae$")
+    "/home/jim/rm_dh_ws/src/rm_description/rviz"
+    "/home/jim/rm_dh_ws/src/rm_description/config"
+    "/home/jim/rm_dh_ws/src/rm_description/doc"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

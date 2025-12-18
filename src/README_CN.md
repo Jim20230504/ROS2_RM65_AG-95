@@ -5,6 +5,13 @@
 
 </div>
 ################################
+source install/setup.bash
+
+# 2. 再次设置 ID (防止 source 覆盖，虽然通常不会)
+export ROS_DOMAIN_ID=55
+
+# 3. 启动预览
+ros2 launch rm_bringup view_rm65_ag95.launch.py
 
 # 启动集成驱动 (假设夹爪在 /dev/ttyUSB0)
 ros2 launch rm_bringup rm_65_ag95_hardware.launch.py

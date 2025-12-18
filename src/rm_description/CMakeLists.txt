@@ -21,10 +21,15 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-install(
-  DIRECTORY launch urdf meshes
+# 确保 meshes, urdf, launch, rviz, config 等目录都被安装
+install(DIRECTORY 
+  launch 
+  urdf 
+  meshes   
+  rviz
+  config
+  doc
   DESTINATION share/${PROJECT_NAME}
-  FILES_MATCHING PATTERN "*.xacro" PATTERN "*.urdf" PATTERN "*.stl" PATTERN "*.dae"
 )
 
 if(BUILD_TESTING)

@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <xacro:property name="pi" value="3.14159265" />
-
   <xacro:macro name="dh_ag95_gripper" params="prefix parent">
 
     <joint name="${prefix}gripper_base_joint" type="fixed">

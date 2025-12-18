@@ -3,6 +3,7 @@
 /home/jim/rm_dh_ws/install/rm_bringup/share/rm_bringup/launch/rm_63_6f_gazebo.launch.py
 /home/jim/rm_dh_ws/install/rm_bringup/share/rm_bringup/launch/rm_63_6fb_bringup.launch.py
 /home/jim/rm_dh_ws/install/rm_bringup/share/rm_bringup/launch/rm_gen72_gazebo.launch.py
+/home/jim/rm_dh_ws/install/rm_bringup/share/rm_bringup/launch/view_rm65_ag95.launch.py
 /home/jim/rm_dh_ws/install/rm_bringup/share/rm_bringup/launch/rm_75_bringup.launch.py
 /home/jim/rm_dh_ws/install/rm_bringup/share/rm_bringup/launch/rm_65_6fb_gazebo.launch.py
 /home/jim/rm_dh_ws/install/rm_bringup/share/rm_bringup/launch/rm_eco63_6fb_gazebo.launch.py
