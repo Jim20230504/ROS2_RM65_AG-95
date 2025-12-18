@@ -1,6 +1,0 @@
-setup.py
-dh_gripper_msgs/__init__.py
-dh_gripper_msgs.egg-info/PKG-INFO
-dh_gripper_msgs.egg-info/SOURCES.txt
-dh_gripper_msgs.egg-info/dependency_links.txt
-dh_gripper_msgs.egg-info/top_level.txt
